@@ -3,11 +3,7 @@
 
 int main()
 {
-<<<<<<< HEAD
-	std:cout<<"Hello World";
-=======
-	std:cout<<"Goodbye Coders School";
->>>>>>> cs
+	std:cout<<"Hello Coders School";
 
 	    return 1;
 }
