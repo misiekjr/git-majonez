@@ -1,0 +1,28 @@
+  893  mkdir git-majonez
+  894  cd git-majonez/
+  895  git init 
+  896  touch main.cpp
+  897  vim main.cpp 
+  898  git add main.cpp 
+  899  git commit -m"Initial commit"
+  900  vim main.cpp 
+  901  git commit -am"Farewell changed"
+  902  git remote add origin https://github.com/misiekjr/git-majonez.git
+  903  git push -u origin master 
+  904  git branch cs
+  905  git checkout cs
+  906  git log
+  907  git reset --hard 720ab8d32bb43bd8452de3e359550b4692540a21
+  908  git log
+  909  vim main.cpp 
+  910  git commit -am"Greetings"
+  911  git push origin cs
+  912  git checkout master
+  913  git merge cs
+  914  add main.cpp 
+  915  git add main.cpp 
+  916  git commit 
+  917  vim main.cpp 
+  918  git commit -am"merge cs"
+  919  history
+  920  history | tail +893 > history.txt
